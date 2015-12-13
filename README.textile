@@ -18,15 +18,15 @@ h1. Usage
 
 See "Leiningen: Installing Plugins":https://github.com/technomancy/leiningen/wiki/Upgrading#plugins
 
-Add @[lein-release "1.0.5"]@ to the @:user -> :plugins@ section of your @$HOME/.lein/profiles.clj@:
+Add @[lein-release "1.0.9"]@ to the @:user -> :plugins@ section of your @$HOME/.lein/profiles.clj@:
 
 <pre>
-{:user {:plugins [[lein-release "1.0.5"]]}}
+{:user {:plugins [[lein-release "1.0.9"]]}}
 </pre>
 
 For Leiningen 1:
 
-pre.    lein plugin install lein-release/lein-release 1.0.5
+pre.    lein plugin install lein-release/lein-release 1.0.9
 
 To perform a release:
 
